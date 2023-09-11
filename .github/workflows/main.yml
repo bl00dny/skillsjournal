@@ -1,7 +1,7 @@
 on: push
-
 jobs:
   build:
+    environment: Dev
     runs-on: ubuntu-latest
     steps:
       - name: Setup .NET Core SDK
